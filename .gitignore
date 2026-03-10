@@ -1,1 +1,20 @@
-*.db
+# --- Database ---
+# Không nên đưa dữ liệu cá nhân lên GitHub
+history.db
+
+# --- Python ---
+# Các file tạm của Python khi chạy chương trình
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- OS ---
+# Các file rác của hệ điều hành
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Environments ---
+# Nếu sau này bạn dùng thư mục ảo (Virtual Environment)
+venv/
+env/
